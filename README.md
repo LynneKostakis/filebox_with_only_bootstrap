@@ -1,23 +1,26 @@
-# Filebox With Only Bootstrap
+# Filebox with Only Bootstrap
 
-## Standard Workflow
+In this project, we'll practice using Bootstrap.
 
- 1. Fork to your own account.
- 1. Clone to your computer.
- 1. In the GitHub Desktop app, [create a branch for your work](https://help.github.com/desktop/guides/contributing/creating-a-branch-for-your-work/#creating-a-branch).
- 1. Open the entire folder you downloaded in Atom.
- 1. Make your first change to the code. (You could modify this `README.md` file by adding your username next to the project in the heading, for example.)
- 1. In the GitHub Desktop app, create a commit. You *must* type a "summary"; "description" is optional.
- 1. Click Publish. Verify that your branch is now visible on your fork at GitHub.com in the "Branch" dropdown.
- 1. **Commit and Sync often as you work.**
- 1. Make new branches freely to experiment! You can always switch back to an older branch using the dropdown in the Desktop App, and all of your files will instantly snap back to their older state. **So, when in doubt, create a branch**, _especially_ before starting on a new task.
- 1. You don't need to merge back into your master branch; in the end, just stay on whatever your best branch is. (In the real world, you would ultimately merge your best branch back into your master branch and deploy it to your production server.)
- 1. Run `rails grade` as often as you like to see how you are doing.
- 1. You can push commits and `rails grade` right up until the due date.
- 1. If you have a question about your code, a great way to get feedback is to open a [Pull Request](https://help.github.com/articles/creating-a-pull-request/). After creating it, if you include the URL of your Pull Request when you post your question, reviewers will be able to easily see the changes you've made and leave comments on each line of your code with suggestions.
+## [Here is your target.](https://filebox-with-only-bootstrap.herokuapp.com/landing.html)
 
-## Project Specific Instructions
+## Setup
 
-1. `cd` into the folder you downloaded.
-1. `bundle install` (or `bundle` for short)
-1. `rails server` (or `rails s` for short)
+1. Run the `bin/setup` command in a Terminal.
+1. Run Project.
+1. Navigate to the homepage of the app in a Chrome tab.
+1. Open `public/index.html` in the editor.
+
+## Suggested Steps
+
+ 1. I have already downloaded and included Bootstrap in the project for you.
+ 2. I have also included an `additional_styles.css` with some standard vertical spacer classes.
+ 3. There are `<link>`s to both in the `<head>` of your starting point, but they are commented out. Uncomment them to use them.
+ 1. Use [Shoelace.io](http://shoelace.io/) to create a skeleton grid for your layout, and then copy-paste it into your page.
+ 2. Plug in your content to each cell in your skeleton. You can copy-paste from the target if you want to.
+ 3. You should be able to exactly match the target by only applying existing classes from either `bootstrap.css` or `additional_styles.css`; **you need not write any CSS rules yourself**.
+
+## Resources:
+
+ - [Official Bootstrap documentation](http://getbootstrap.com/css/)
+ - [Shoelace.io](http://shoelace.io/)

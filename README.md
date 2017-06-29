@@ -21,11 +21,16 @@ Therefore, you shouldn't have to write any CSS rules yourself for this phase; 
 ## Suggested Steps
 
  1. I have already downloaded and included Bootstrap in the project for you.
- 2. I have also included an `additional_styles.css` with some standard vertical spacer classes.
- 3. There are `<link>`s to both in the `<head>` of your starting point, but they are commented out. Uncomment them to use them.
+ 1. I have also included an `additional_styles.css` with some standard vertical spacer classes.
+ 1. There are `<link>`s to both in the `<head>` of your starting point, but they are commented out. Uncomment them to use them.
  1. Use [Shoelace.io](http://shoelace.io/) to create a skeleton grid for your layout, and then copy-paste it into your page.
- 2. Plug in your content to each cell in your skeleton. You can copy-paste from the target if you want to.
- 3. You should be able to exactly match the target by only applying existing classes from either `bootstrap.css` or `additional_styles.css`; **you need not write any CSS rules yourself**.
+ 1. Plug in your content to each cell in your skeleton. You can copy-paste from the target if you want to.
+ 1. I've already downloaded all of the images that you need. You'll find them in the folder `public/assets/images`, which means you can use them like this:
+
+        <img src="/assets/images/hero.png">
+
+ 1. You should be able to exactly match the target by only applying existing classes from either `bootstrap.css` or `additional_styles.css`; **you need not write any CSS rules yourself**.
+ 1. You can draw "inspiration" from the target, and any page on the Internet, by Viewing Source: Ctrl+U on Windows or Option+Cmd+U on Mac.
 
 ## Resources:
 

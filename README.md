@@ -11,6 +11,7 @@ Therefore, you shouldn't have to write any CSS rules yourself for this phase; 
 
 ## Setup
 
+1. Create a Cloud 9 Workspace as usual.
 1. Run the `bin/setup` command in a Terminal.
 1. Run Project.
 1. Navigate to the homepage of the app in a Chrome tab.

@@ -1,6 +1,11 @@
 # Filebox with Only Bootstrap
 
-In this project, we'll practice using Bootstrap.
+In this project, we'll practice using Bootstrap. The goal in this phase is to **only** use:
+
+ - pre-written Bootstrap classes and components, e.g. unstyled lists and the navbar
+ - the vertical spacing classes that I've already included for you
+
+Therefore, you shouldn't have to write any CSS rules yourself for this phase; just apply the ones that Bootstrap and I have provided.
 
 ## [Here is your target.](https://filebox-with-only-bootstrap.herokuapp.com/landing.html)
 

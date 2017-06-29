@@ -31,6 +31,7 @@ Therefore, you shouldn't have to write any CSS rules yourself for this phase; 
 
  1. You should be able to exactly match the target by only applying existing classes from either `bootstrap.css` or `additional_styles.css`; **you need not write any CSS rules yourself**.
  1. You can draw "inspiration" from the target, and any page on the Internet, by Viewing Source: Ctrl+U on Windows or Option+Cmd+U on Mac.
+ 1. You can also right-click on any element in Chrome and "Inspect" to get an even more powerful set of Developer Tools, which we'll talk about more in the future.
 
 ## Resources:
 
